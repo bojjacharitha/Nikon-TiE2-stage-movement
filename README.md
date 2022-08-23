@@ -2,7 +2,7 @@
 
 The camera was not capturing the images at the start because Micro Manager-2 was not able to recognize Hamamatsu. Later, I changed the path in Hardware Configuration Wizard. Then the configuration was successful.
 
-#Libraries installation
+##Libraries installation
 
 python is installed with this link: https://phoenixnap.com/kb/how-to-install-python-3-windows
 
