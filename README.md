@@ -2,7 +2,7 @@
 
 The camera was not capturing the images at the start because Micro Manager-2 was not able to recognize Hamamatsu. Later, I changed the path in Hardware Configuration Wizard. Then the configuration was successful.
 
-##Libraries installation
+## Libraries installation
 
 python is installed with this link: https://phoenixnap.com/kb/how-to-install-python-3-windows
 
@@ -16,7 +16,7 @@ pymmcore is installed using the following command:  python -m pip install --user
      
 MMCore library has many commands useful for stage movement. This link is used for writing code:  https://micro-manager.org/apidoc/MMCore/latest/class_c_m_m_core.html
 
-#How it works
+## How it works
 
 After running the code in cmd, the stage moves and captures images. Sometimes, we observe no images(completely black). That's because of light intensity. Keeping track of light intensity is also important. 
 
