@@ -29,8 +29,8 @@ Firstly, we tried image registration using skimage. But then, the results were n
 Code snippet:
 </br>
 def registration(reference_image, moving_image):
-    shifts, error, phasediff = phase_cross_correlation(reference_image, moving_image, upsample_factor=1, overlap_ratio=0.3)
-    return shifts
+</br> &nbsp   shifts, error, phasediff = phase_cross_correlation(reference_image, moving_image, upsample_factor=1, overlap_ratio=0.3)
+</br> &nbsp    return shifts
 Link used for referring skimage registration- https://scikit-image.org/docs/stable/api/skimage.registration.html#skimage.registration.phase_cross_correlation
 
 After this, we referred to otsu thresholding.
