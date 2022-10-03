@@ -27,22 +27,22 @@ Firstly, we tried image registration using skimage. But then, the results were n
 ## Skimage registration
 
 Code snippet:
-</br>
+</br></br>
 def registration(reference_image, moving_image):
-</br> &nbsp   shifts, error, phasediff = phase_cross_correlation(reference_image, moving_image, upsample_factor=1, overlap_ratio=0.3)
-</br> &nbsp    return shifts
-Link used for referring skimage registration- https://scikit-image.org/docs/stable/api/skimage.registration.html#skimage.registration.phase_cross_correlation
-
+</br>    shifts, error, phasediff = phase_cross_correlation(reference_image, moving_image, upsample_factor=1, overlap_ratio=0.3)
+</br>   return shifts
+</br> Link used for referring skimage registration- https://scikit-image.org/docs/stable/api/skimage.registration.html#skimage.registration.phase_cross_correlation
+</br> 
 After this, we referred to otsu thresholding.
 
 ## Otsu thresholding
 This method separates background and foreground pixels. The algorithm iteratively searches for the threshold that minimizes the within-class variance where it is a weighted sum of variances of the two classes (background and foreground). 
 
-<p align="center">Links used to understand otsu thresholding:</p>
-https://hbyacademic.medium.com/otsu-thresholding-4337710dc519
-http://www.ripublication.com/ijaerdoi/2015/ijaerv10n9_20.pdf
-https://muthu.co/otsus-method-for-image-thresholding-explained-and-implemented/
-
+</br> Links used to understand otsu thresholding:
+</br> https://hbyacademic.medium.com/otsu-thresholding-4337710dc519
+</br> http://www.ripublication.com/ijaerdoi/2015/ijaerv10n9_20.pdf
+</br> https://muthu.co/otsus-method-for-image-thresholding-explained-and-implemented/
+</br> </br> 
 Github code link:
-https://github.com/muthuspark/ml_research/blob/master/Otsu%20Thresholding%20implementation.ipynb
+</br> https://github.com/muthuspark/ml_research/blob/master/Otsu%20Thresholding%20implementation.ipynb
 
