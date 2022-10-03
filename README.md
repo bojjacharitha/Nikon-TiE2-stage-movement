@@ -27,6 +27,7 @@ Firstly, we tried image registration using skimage. But then, the results were n
 ## Skimage registration
 
 Code snippet:
+</br>
 def registration(reference_image, moving_image):
     shifts, error, phasediff = phase_cross_correlation(reference_image, moving_image, upsample_factor=1, overlap_ratio=0.3)
     return shifts
