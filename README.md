@@ -31,7 +31,7 @@ Code snippet:
 def registration(reference_image, moving_image):
 </br>    shifts, error, phasediff = phase_cross_correlation(reference_image, moving_image, upsample_factor=1, overlap_ratio=0.3)
 </br>   return shifts
-</br> Link used for referring skimage registration- https://scikit-image.org/docs/stable/api/skimage.registration.html#skimage.registration.phase_cross_correlation
+</br></br>  Link used for referring skimage registration- https://scikit-image.org/docs/stable/api/skimage.registration.html#skimage.registration.phase_cross_correlation
 </br> 
 After this, we referred to otsu thresholding.
 
