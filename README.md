@@ -37,7 +37,7 @@ After this, we referred to otsu thresholding.
 ## Otsu thresholding
 This method separates background and foreground pixels. The algorithm iteratively searches for the threshold that minimizes the within-class variance where it is a weighted sum of variances of the two classes (background and foreground). 
 
-Links used to understand otsu thresholding:
+<p align="center">Links used to understand otsu thresholding:</p>
 https://hbyacademic.medium.com/otsu-thresholding-4337710dc519
 http://www.ripublication.com/ijaerdoi/2015/ijaerv10n9_20.pdf
 https://muthu.co/otsus-method-for-image-thresholding-explained-and-implemented/
